@@ -1,0 +1,204 @@
+.customHeading{
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background: #1c6bcf;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    font-size: 18px;
+    font-weight: 100;
+}
+.invoiceFormLabel{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color:rgb(8, 39, 100);
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.invoiceFrom{
+    background: transparent;
+    border:0px;
+    border-bottom: 1px solid #1c6bcf;
+    border-radius: 0px;
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    padding: 0px;
+    
+}
+.ticketContainer{
+    margin: auto;
+    padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.customLabel{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #013e8b;
+}
+.customInputField{
+    border: 0px;
+    border-bottom: 1px solid #1c6bcf;
+    border-radius: 0px;
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    color: #1c6bcf !important;
+}
+.checkoutButton:disabled{
+    background-color:rgb(1, 62, 139);
+}
+.cardOverRide{
+    max-width:400px;
+    margin:auto;
+    margin-top:50px;
+    background:#e7f2f6
+}
+.cardOverRide .card-header{
+    text-align: center;
+    color:rgb(8, 39, 100);
+    background: transparent;
+    border-bottom: 0px;
+    letter-spacing: 1px;
+}
+.cardOverRide .table td{
+    font-weight: 600;
+    color: rgb(8, 39, 100);
+}
+.cardOverRide .table th{
+    border-top:0px;
+    font-size: 14px;
+    font-weight: normal;
+    color:rgb(8, 39, 100);
+}
+
+.checkoutButton{
+    margin: auto;
+    display: block;
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background:rgb(1, 62, 139);
+}
+.ticketHeading{
+    font-weight: normal;
+    font-size: 25px;
+    color: #013e8b;
+
+}
+
+.lightButtonBorder{
+    /* border: 1px solid #c1ccd7; */
+    box-shadow: #c1ccd7 0px 0px 34px 2px;
+    -webkit-box-shadow:#c1ccd7 0px 0px 34px 2px;
+    -moz-box-shadow:#c1ccd7 0px 0px 34px 2px;
+}
+.lightButtonBorder.active{
+    /* border: 1px solid #c1ccd7; */
+    box-shadow: #013e8b 0px 0px 34px 2px;
+    -webkit-box-shadow:#013e8b 0px 0px 34px 2px;
+    -moz-box-shadow:#013e8b 0px 0px 34px 2px;
+}
+.timeSelect{
+    letter-spacing: 1px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.roundFix{
+    padding-left:0.6rem !important;
+    padding-right:0.6rem !important;
+    color:#013e8b;
+    background:rgb(198, 222, 230);
+}
+button.active.timeSelect{
+    background:#013e8b;
+}
+.active.timeSelect.active>.roundFix{
+    background:#022b5f;
+    color:white;
+}
+.fontWhite{
+    color:white;
+}
+.fontNoColor{
+    font-size: 18px;
+}
+.appFont{
+    font-size: 18px;  
+    color:#013e8b; 
+}
+.timeSelect.appFont.active{
+    color:white;
+}
+
+hr{
+    margin-top:0px !important;
+    border-top:1px solid rgba(0, 0, 0, 0.62);
+}
+.containerPadding{
+    padding-bottom: 0px !important;
+    padding-left: 50px !important;
+    padding-right:50px !important;
+}
+.react-calendar, .react-calendar *, .react-calendar *:before, .react-calendar *:after{
+    border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border: 0px;
+}
+.react-calendar button{
+    border-radius:0px;
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+}
+.react-calendar{
+    width:100%;
+    max-width: 400px;
+    line-height: 1.525em;
+    margin: auto;
+}
+.error-validation{
+   font-size:12px;
+   margin-bottom:2px
+}
+
+.ticketPrice {
+    margin-top: -14%;
+    position: absolute;
+    right: 14%;
+    color: red;
+    font-size: 20px;
+}
+
+.gift-option{
+    margin-left: 50px;
+    margin-top: 2%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.ticketContainer {
+    margin: auto;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ticketPrice {
+    top: 22%;
+    position: absolute;
+    right: 40px;
+    color: red;
+}
+
+}
+
